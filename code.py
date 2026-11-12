@@ -8,7 +8,7 @@ roll=0
 die_no=5
 die_names=["D4","D6","D8","D10","D12","D20"]
 die_sides=[4,6,8,10,12,20]
-magtag.graphics.set_background("/bmps/boot_screen.bmp")
+magtag.graphics.set_background("/boot_screen.bmp")
 magtag.refresh()
 time.sleep(1)
 magtag.peripherals.play_tone(1047,0.1)
